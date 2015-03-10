@@ -1,0 +1,174 @@
+@font-face {
+	font-family: "Dosis Light";
+	src: url(../fonts/Dosis.woff2);
+}
+
+body {
+	font-family: "Dosis Light";
+}
+
+header {
+	background-image: url('../img/blue_background.jpg');
+	background-size: 20%;
+	padding: 20px 0;
+	color: #fff;
+}
+
+header h1 {
+	margin: 0;
+}
+
+section.dark {
+	background-color: #000B1C;
+	padding: 10px 0;
+	color: #fff;
+}
+
+.diagram {
+	margin: 0 auto -40px;
+}
+
+.diagram span {
+	font-family: "Dosis Light" !important;
+	font-size: 30px !important;
+	font-weight: bold;
+}
+
+.diagram img {
+	margin: -4px;
+	position: relative;
+	z-index: 2;
+}
+
+.diagram span {
+	display: none !important;
+}
+
+section.white {
+	background-color: #fff;
+	padding: 70px 0 40px;
+}
+
+.diagram .diagram {
+	margin-top: 10px;
+}
+
+.percentage {
+	margin: 0 0 5px;
+	font-weight: bold;
+	position: relative;
+}
+
+.percentage span {
+	position: absolute;
+	width: 275px;
+	right: -250px;
+	height: 1px;
+	background-color: #000;
+	top: 50%;
+	z-index: 2;
+}
+
+.percentage span:before {
+	content: "";
+	width: 6px;
+	height: 6px;
+	right: 0;
+	position: absolute;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	z-index: 2;
+	background-color: #000;
+	top: -3px;
+}
+
+.percentage.front {
+	color: #859ACE;
+}
+
+.percentage.devops {
+	color: #1461B9;
+}
+
+.percentage.back {
+	color: #000B1C;
+}
+
+.circle {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	padding: 10px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	margin-right: 10px; 
+}
+
+.nav-tabs li .circle {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	padding: 10px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+}
+
+.circle.light-blue {
+	background-color: #859ACE;
+}
+
+.circle.blue {
+	background-color: #1461B9;
+}
+
+.circle.dark-blue {
+	background-color: #000B1C;
+}
+
+.nav-tabs {
+	border: none;
+	margin: 70px auto 20px;
+	display: table;
+}
+
+.nav-tabs>li>a {
+	margin: 0 15px;
+}
+
+.nav-tabs>li>.circle.circle.light-blue,
+.nav-tabs>li>.circle.circle.light-blue:hover,
+.nav-tabs>li>.circle.circle.light-blue:focus,
+.nav-tabs>li.active>.circle.circle.light-blue,
+.nav-tabs>li.active>.circle.circle.light-blue:hover,
+.nav-tabs>li.active>.circle.circle.light-blue:focus {
+	background-color: #859ACE;
+	border: none;
+}
+
+.nav-tabs>li>.circle.circle.blue,
+.nav-tabs>li>.circle.circle.blue:hover,
+.nav-tabs>li>.circle.circle.blue:focus,
+.nav-tabs>li.active>.circle.circle.blue,
+.nav-tabs>li.active>.circle.circle.blue:hover,
+.nav-tabs>li.active>.circle.circle.blue:focus {
+	background-color: #1461B9;
+	border: none;
+}
+
+.nav-tabs>li>.circle.circle.dark-blue,
+.nav-tabs>li>.circle.circle.dark-blue:hover,
+.nav-tabs>li>.circle.circle.dark-blue:focus,
+.nav-tabs>li.active>.circle.circle.dark-blue,
+.nav-tabs>li.active>.circle.circle.dark-blue:hover,
+.nav-tabs>li.active>.circle.circle.dark-blue:focus {
+	background-color: #000B1C;
+	border: none;
+}
+
+.font-20 {
+	font-size: 20px;
+}

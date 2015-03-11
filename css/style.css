@@ -35,7 +35,7 @@ section.dark {
 }
 
 .diagram img {
-	margin: -4px;
+	margin: 4px;
 	position: relative;
 	z-index: 2;
 }
@@ -171,4 +171,67 @@ section.white {
 
 .font-20 {
 	font-size: 20px;
+}
+
+.diagram .logo-diagram {
+	margin: 60px;
+}
+
+.progress {
+	height: 35px;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	background: transparent;
+	box-shadow: 0 0 0 transparent;
+}
+
+.progress .progress-bar {
+	line-height: 35px;
+	text-align: left;
+	padding: 0 10px;
+	font-size: 16px;
+}
+
+.progress .progress-bar.blue {
+	background-color: #156AC7;
+}
+
+.progress .progress-bar.light-blue {
+	background-color: #57A4DC;
+}
+
+.line-35 {
+	line-height: 35px;
+}
+
+section.black {
+	padding: 40px 0;
+	background-color: #1A1A1A;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	min-height: 570px;
+}
+
+.hands {
+	position: absolute;
+}
+
+section.gray {
+	padding: 40px 0;
+	background-image: url(../img/white_background.jpg);
+	color: #fff;
+	position: relative;
+	color: #353535;
+}
+
+.gray-banner {
+	background-color: #353535;
+	color: #fff;
+	padding: 20px 0;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0;
 }

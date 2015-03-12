@@ -35,7 +35,7 @@ section.dark {
 }
 
 .diagram img {
-	margin: 4px;
+	margin: 6px;
 	position: relative;
 	z-index: 2;
 }
@@ -234,4 +234,25 @@ section.gray {
 	font-weight: bold;
 	text-align: center;
 	margin: 20px 0;
+}
+
+#observaciones {
+	position: relative;
+}
+
+#observaciones .text {
+	width: 381px;
+	height: 288px;
+	position: absolute;
+	background: #fff;
+	padding: 10px;
+	top: 21px;
+	left: 87px;
+	color: #222;
+	font-size: 18px;
+	overflow: auto;
+}
+
+.container	{
+	width: 1170px;
 }

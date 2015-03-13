@@ -25,7 +25,7 @@ section.dark {
 }
 
 .diagram {
-	margin: 0 auto -40px;
+	margin: 0 auto -70px;
 }
 
 .diagram span {
@@ -41,12 +41,17 @@ section.dark {
 }
 
 .diagram span {
+	font-size: 22px !important;
+	line-height: 50px !important;
+}
+
+.no-percentage .diagram span {
 	display: none !important;
 }
 
 section.white {
 	background-color: #fff;
-	padding: 70px 0 40px;
+	padding: 120px 0 40px;
 }
 
 .diagram .diagram {
@@ -131,7 +136,7 @@ section.white {
 
 .nav-tabs {
 	border: none;
-	margin: 70px auto 20px;
+	margin: 100px auto 20px;
 	display: table;
 }
 
@@ -191,11 +196,17 @@ section.white {
 	text-align: left;
 	padding: 0 10px;
 	font-size: 16px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
 
 .progress .progress-bar.blue {
 	background-color: #156AC7;
 }
+
+.progress .progress-bar.dark-blue {
+	background-color: #000B1C;
+}
+
 
 .progress .progress-bar.light-blue {
 	background-color: #57A4DC;
@@ -203,11 +214,13 @@ section.white {
 
 .line-35 {
 	line-height: 35px;
+	font-weight: bold;
+	font-size: 20px;
 }
 
-section.black {
+section.blue {
 	padding: 40px 0;
-	background-color: #1A1A1A;
+	background-image: url('../img/blue_background.jpg');
 	color: #fff;
 	position: relative;
 	overflow: hidden;
